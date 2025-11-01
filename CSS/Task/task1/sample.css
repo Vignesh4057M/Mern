@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(18, 14, 48);
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background: rgb(21, 18, 44);
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(220, 201, 114);
+}
+
+.topar{
+    display: flex;
+    list-style: none;
+}
+.topar li{
+    margin: 0 15px;
+}
+
+.topar a{
+    transition: 0.3s;
+    color: rgb(163, 84, 84);
+    text-decoration: none;
+}
+
+.topar a:hover{
+    color:rgb(207, 92, 30);
+}
+
+.search input{
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.main{
+    background: url("../../../../Assets/image/images1.jpeg")center/cover no-repeat;
+    display: flex;
+    background-repeat: no-repeat;
+    
+    padding:  50px;
+    position: relative;
+    height: 800px;
+}
+
+
+
+img{
+  display: flex;position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  border-left-width: 20px;
+  padding: 10px;
+  width: 400px;
+  height: 280px;
+  left: 400px;
+}
+
+button{
+    width: 165px;
+    height: 50px;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+.leftmain{
+    padding: 40px;
+    padding-top: 60px;
+}
+.leftmain p{
+    color: coral;
+    font-size: 20px;
+
+}
+.leftmain h2{
+    padding: 10px;
+    color: aqua;
+}
+
+.rightmain {
+    position: absolute;
+    left: 350px;
+}
+
+.rightmain img{
+    width: 450px;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+    padding: 10px;
+    position: absolute;
+    bottom: 2px;
+background-color: transparent;
+left: 150px;
+}
+b{
+    color: rgb(234, 255, 117);
+}
+p{
+    padding: 20px;
+}
+
+.sample{
+    position: relative;
+}
+
+.g1,.g2,.g3,.g4,.g5,.g6{
+    background-color: rgb(72, 39, 42);
+    height: 179px;
+    padding: 10px;
+    color: rgb(255, 252, 252);
+    border-radius: 20px;
+}

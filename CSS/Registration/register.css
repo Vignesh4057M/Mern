@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+background: linear-gradient(135deg ,rgb(146, 196, 234),orange);
+background-size: cover;
+background-position: center;
+filter: brightness(80%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh
+}
+
+.container{
+    background-image: url(../../Assets/image/finland.jpg);
+background-size: cover;
+    background-color: rgb(223, 240, 200);
+    padding: 25px 25px;
+    border-radius: 15px;
+    height: 500px;
+    width: 400px;
+}
+h2{
+    text-align: center;
+    color: brown;
+    margin-bottom: 30px;
+}
+form label{
+    color: rgb(255, 0, 144);
+    display: block;
+    margin-bottom: 10px;
+
+}
+#sub{
+    color: aqua;
+    background-color: cadetblue;
+    border-radius: 35px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+#Name{
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#email{
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#Phone{
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#dob{
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#gender{
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sample{
+    background-image: url(../../Assets/image/finland.jpg);
+background-size: cover;
+    background-color: rgb(223, 240, 200);
+    padding: 25px 25px;
+    border-radius: 15px;
+    height: 350px;
+    width: 420px;
+}
+#pass{
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+}
+#log{
+    color: aqua;
+    background-color: cadetblue;
+    border-radius: 35px;
+    padding: 10px;
+    width: 350px;
+    margin-top: 25px;
+}

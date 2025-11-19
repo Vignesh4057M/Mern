@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    height: 330px;
+    width: 430px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: rgb(60, 57, 57);
+}
+.cards img{
+    margin-top: 20px;
+    border-radius: 20px ;
+}
+.cards h3,p{
+    color: white;
+    padding-left: 8px;
+}
+.design{
+    display: flex;
+    justify-content: space-around;
+}
+/* .card1{
+    display: flex;
+} */
